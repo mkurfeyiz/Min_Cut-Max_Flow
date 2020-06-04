@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Label layoutX="174.0" layoutY="45.0" text="Musluk ve Boru Bilgilerini Giriniz">
+            <font>
+                <Font name="Comic Sans MS Bold" size="28.0" />
+            </font>
+        </Label>
+        <Label layoutX="98.0" layoutY="152.0" text="Musluk Sayısı">
+            <font>
+                <Font name="Comic Sans MS" size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="137.0" layoutY="217.0" text="Matris">
+            <font>
+                <Font name="Comic Sans MS" size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="102.0" layoutY="288.0" text="Giriş Musluğu">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="100.0" layoutY="368.0" text="Çıkış Musluğu">
+            <font>
+                <Font name="Comic Sans MS" size="24.0" />
+            </font>
+        </Label>
+        <TextField fx:id="muslukSayisi" layoutX="300.0" layoutY="155.0" prefHeight="30.0" prefWidth="200.0">
+            <font>
+                <Font name="Comic Sans MS" size="14.0" />
+            </font></TextField>
+        <TextField fx:id="matris" layoutX="300.0" layoutY="220.0" prefHeight="30.0" prefWidth="200.0">
+            <font>
+                <Font size="14.0" />
+            </font></TextField>
+        <TextField fx:id="girisMuslugu" layoutX="300.0" layoutY="291.0" prefHeight="30.0" prefWidth="200.0">
+            <font>
+                <Font size="14.0" />
+            </font></TextField>
+        <TextField fx:id="cikisMuslugu" layoutX="300.0" layoutY="371.0" prefHeight="30.0" prefWidth="200.0">
+            <font>
+                <Font size="14.0" />
+            </font></TextField>
+        <Button layoutX="533.0" layoutY="155.0" minHeight="30.0" mnemonicParsing="false" onAction="#setMuslukSayisi" text="Kaydet">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button layoutX="533.0" layoutY="220.0" mnemonicParsing="false" onAction="#setMatris" text="Kaydet">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button layoutX="533.0" layoutY="291.0" mnemonicParsing="false" onAction="#setGirisMuslugu" text="Kaydet">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button layoutX="533.0" layoutY="371.0" mnemonicParsing="false" onAction="#setCikisMuslugu" text="Kaydet">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button layoutX="612.0" layoutY="450.0" mnemonicParsing="false" onAction="#graphPage" text="Graf Sayfası" AnchorPane.bottomAnchor="44.0" AnchorPane.rightAnchor="44.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
